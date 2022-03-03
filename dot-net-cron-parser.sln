@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronExpressionParser", "CronExpressionParser\CronExpressionParser.csproj", "{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronExpressionParser.Tests", "CronExpressionParser.Tests\CronExpressionParser.Tests.csproj", "{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot-net-cron-parser", "CronParser\dot-net-cron-parser.csproj", "{823AC522-7279-40C3-ABDF-9B8DA9B94408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|x64.Build.0 = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|x64.ActiveCfg = Release|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|x64.Build.0 = Release|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{B82316E3-E62F-49FE-B55D-4C2DFB748DA6}.Release|x86.Build.0 = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|x64.Build.0 = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA633E16-5A53-4A07-AC78-34B3A5F5F3C5}.Release|x86.Build.0 = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|x64.Build.0 = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Debug|x86.Build.0 = Debug|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|x64.ActiveCfg = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|x64.Build.0 = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|x86.ActiveCfg = Release|Any CPU
+		{823AC522-7279-40C3-ABDF-9B8DA9B94408}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
